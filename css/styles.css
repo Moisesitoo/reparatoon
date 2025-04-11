@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#navbar .logo img {
+    height: 50px;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 80px 40px;
+    margin-top: 60px;
+}
+
+h1, h2, h3 {
+    font-family: 'Bangers', cursive;
+    color: #ffcc00;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+p, ul {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+#redes-sociales ul {
+    list-style: none;
+    padding: 0;
+}
+
+#redes-sociales ul li {
+    margin: 10px 0;
+}
+
+#redes-sociales ul li a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+/* Estilos adicionales para la temática de Looney Tunes */
+body {
+    background-image: url('../images/looney-tunes-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 40px;
+}
+/* Estilos para los títulos con bordes negros */
+h1, h2, h3 {
+    font-family: 'Bangers', cursive;
+    color: #ffcc00; /* Color amarillo */
+    text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000; /* Borde negro */
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 40px; /* Más espacio debajo del título principal */
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Estilos específicos para la sección "Quiénes Somos" */
+#quienes-somos {
+    text-align: center; /* Centra el texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+/* Opcional: Ajustar el margen superior para más espacio */
+#quienes-somos h2 {
+    margin-top: 0; /* Elimina el margen superior predeterminado */
+}
